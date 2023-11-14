@@ -166,6 +166,7 @@ namespace SDK {
 
         private void UpdateMaxMediation()
         {
+#if UNITY_AD_MAX
             MaxMediationController maxMediationController = GetAdsMediationController(AdsMediationType.MAX) as MaxMediationController;
             if (maxMediationController == null) return;
             if (m_SDKSetup.adsMediationType == AdsMediationType.MAX)
@@ -197,6 +198,7 @@ namespace SDK {
             #if UNITY_EDITOR
             UnityEditor.EditorUtility.SetDirty(maxMediationController);
             #endif
+#endif
         }
 
         private void UpdateAdmobMediation()
