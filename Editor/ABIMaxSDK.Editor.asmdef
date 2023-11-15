@@ -1,0 +1,16 @@
+{
+    "name": "ABIMaxSDK.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:354ada164917ba54dabad3bff2f9cdd2"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
